@@ -1,7 +1,7 @@
 const lights = {
   data() {
     return {
-      showLight: false,
+      showLight: true,
     };
   },
 };

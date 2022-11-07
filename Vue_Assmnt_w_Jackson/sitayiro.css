@@ -22,3 +22,7 @@ body {
   font: 60px;
   font-weight: bold;
 }
+h1 {
+    color: rgba(100, 224, 202, 0.616) ;
+    padding-top: 5px;
+}
