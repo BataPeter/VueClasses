@@ -6,21 +6,28 @@
     <title>VueAssignment1</title>
     <link rel="stylesheet" href="sitayiro.css">
     <script src="https://unpkg.com/vue@3.0.2"></script>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
-    <h1 class="text-muted">LIGHT_CODE_CHALLENGE</h1>
+    <h1 class="btn btn-danger">CODE THE BULB CHALLENGE</h1>
     <div id="app">
     <div class="container">
       <div class="row txt-center">
 
       <div v-if = 'showLight'>
-        <img class="image1" src="light_on.jpg" alt="lightBulb"> SHOW LIGHT
+        <img class="image1" src="light_on.jpg" alt="lightBulb">
       </div>
 
        <div v-else>
-        <img class="image2" src="light_off.jpg" alt="lightsOff"> LIGHTS OFF
+        <img class="image2" src="light_off.jpg" alt="lightsOff">
        </div>
+      
+       <button  @click="showLight=!showLight" class="btn btn-success">ON/OFF</button>
+
    
 <script src="scripts.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
